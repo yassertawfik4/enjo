@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: #0D7377;
+    height: 100vh;
+}
+.main .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.main .container .info{
+    text-align: center;
+}
+.main .container .info h1{
+    color: white;
+}
+.main .container .info .btn{
+    margin-top: 45px;
+    padding: 20px;
+    font-size: 23px;
+    font-weight: 600;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 40px;
+}
+.main .container .info .link{
+    color: #30AADD;
+    text-decoration: none;
+    font-size: 35px;
+    background: black;
+    padding: 14px;
+    border-radius: 15px;
+    display: none;
+}
+/* ########################################### */
+.land .page{
+    position: absolute;
+    top: 14%;
+    right: 46%;
+    font-size: 30px;
+    text-decoration: none;
+}
+.land .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.land .container .land-info{
+    text-align: center;
+}
+.land .container .land-info label{
+    font-size: 23px;
+}
+.land .container .land-info .input{
+    padding: 9px;
+    border-radius: 6px;
+    border-color: black;
+    font-size: 18px;
+}
+.land .container .land-info .submit{
+    margin-top: 30px;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #5800FF;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-family: monospace;
+    letter-spacing: 1.3px;
+}
+.land .container .land-info span{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 21px;
+    font-size: 35px;
+}
+.land .container .land-info span h5{
+    border: 1px solid;
+    padding: 0px 20px;
+    background-color: #5800FF;
+    color: white;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.land .container .land-info .img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -50px;
+} 
+.land .container .land-info .img img{
+    max-width: 300px;
+}
+.land .container .land-info .myimg{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -50px;
+} 
+.land .container .land-info .myimg img{
+    max-width: 300px;
+}
+.active{
+    display: none;
+}
+.en{
+    position: absolute;
+    top: 164px;
+    cursor: pointer;
+    color: #FB2576;
+}
+.count-gold{
+    margin-top: 45px;
+    text-align: center;
+    
+}
+.count-gold .input-calc{
+    padding: 5px 12px;
+    margin-bottom: 40px;
+}
+.count-gold .input-res{
+    padding: 5px 12px;
+    
+}
+.by{
+    color: blue;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 900;
+    bottom: 195px;
+    left: 63px;
+    position: absolute;
+}
